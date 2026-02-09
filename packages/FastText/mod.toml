@@ -20,10 +20,10 @@ native_libraries = [
 ]
 
 [inputs]
-elf_path = "build/mod.elf"
+elf_path = "../../build/packages/FastText/mod.elf"
 mod_filename = "mm_recomp_faster_text"
-func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
-data_reference_syms_files = [ "Zelda64RecompSyms/mm.us.rev1.datasyms.toml", "Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml" ]
+func_reference_syms_file = "../../Zelda64RecompSyms/mm.us.rev1.syms.toml"
+data_reference_syms_files = [ "../../Zelda64RecompSyms/mm.us.rev1.datasyms.toml", "../../Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml" ]
 additional_files = [ ]
 
 [[manifest.config_options]]
