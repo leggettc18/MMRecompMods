@@ -33,3 +33,11 @@ description = "How much faster the text scrolls"
 type = "Enum"
 options = [ "2x", "4x", "8x", "16x" ]
 default = "2x"
+
+[[manifest.config_options]]
+id = "auto_advance_text"
+name = "Auto Advance"
+description = "Toggles whether or not to auto-advance text boxes by holding the B button"
+type = "Enum"
+options = [ "On", "Off" ]
+default = "On"
