@@ -6,6 +6,7 @@
 s32 Message_BombersNotebookProcessEventQueue(PlayState* play);
 
 typedef enum {
+    TEXT_SPEED_1x,
     TEXT_SPEED_2X,
     TEXT_SPEED_4X,
     TEXT_SPEED_8X,
@@ -34,6 +35,8 @@ RECOMP_HOOK("Message_Update") void message_update_hook(PlayState* play) {
             break;
         case TEXT_SPEED_16X:
             textSpeedMod = 15;
+            break;
+        default:
             break;
     }
 
